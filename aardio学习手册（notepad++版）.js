@@ -68,6 +68,8 @@ io.print ( $"/my.txt" ) //my.txt文件内容，发布程序后自动嵌入
 2. 常用函数
 2.1. io库
 io.exist(文件路径) //判断文件是否存在
+
+
 2.2. string库
 //unicode编码的字符串，即utf-8、utf-16编码等
 string.fromUnicodeIf(unicode字符串) //将@1转成默认代码页，若已经是则不转。返回字符串
