@@ -1,1 +1,1 @@
-execute("start http://www.baidu.com/"); //直接打开百度
+execute("start http://www.baidu.com/"); //命令行直接打开百度
