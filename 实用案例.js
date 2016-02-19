@@ -50,3 +50,7 @@ while( var line ; line = next();line ) {
 var str = string.load("/test.txt");
 var tab = ..table.slice( string.split(str,'<\r\n>'),2,3) //取第二行到第三行
 console.varDump(tab)
+
+2. 打开网页
+import process
+process.execute("http://www.baidu.com/")
